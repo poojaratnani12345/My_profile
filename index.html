@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Doe - Personal Portfolio</title>
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+
+  <style>
+    .swiper {
+      width: 100%;
+      max-width: 1400px;
+      margin: 50px auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo-link">Pooja<span> Ratnani</span></a>
+        
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        
+        
+        <div class="nav-toggle">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="mobile-menu">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-item"><a href="#home" class="mobile-nav-link">Home</a></li>
+          <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link">About</a></li>
+          <li class="mobile-nav-item"><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li class="mobile-nav-item"><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-subtitle">Hello, I'm</p>
+          <h1 class="hero-title">Pooja Ratnani</h1>
+          <p class="hero-description">ERPNext Developer </p>
+          <p class="hero-paragraph">I am design intelligent ERPNext solutions that power modern businesses.Crafting customized ERPNext experiences — where business meets innovation.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-outline">View Work</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-image-wrapper">
+            <img src="image.jpg" class="profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image">
+          <img src="pexels-karolina-grabowska-4467735.jpg">
+        </div>
+        
+        <div class="about-text">
+          <h3 class="about-title">Get to know me!</h3>
+          <p class="about-paragraph">I am an ERPNext Developer passionate about building customized ERP solutions that solve real business problems.
+             With a focus on module development, customizations, and seamless deployments, I empower businesses to streamline their operations and grow smarter. Let's create systems that work for you, not against you.</p>
+          
+          <div class="about-info">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <h4 class="info-title">Name</h4>
+                <p class="info-subtitle">Pooja Ratnani</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="info-title">Email</h4>
+                <p class="info-subtitle">ratnanipooja000@gmail.com</p>
+              </div>
+            </div>
+         
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-location-dot"></i>
+              </div>
+              <div>
+                <h4 class="info-title">Location</h4>
+                <p class="info-subtitle">Surat, India</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My Skills</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Here you will find information about my skills and what I excel at</p>
+      </div>
+      
+      <div class="skills-content">
+        <div class="tech-skills">
+          <h3 class="skills-title">Technical Skills</h3>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">Python</p>
+              <p class="skill-percentage">90%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">Mariadb</p>
+              <p class="skill-percentage">85%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">JavaScript</p>
+              <p class="skill-percentage">80%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">Frappe</p>
+              <p class="skill-percentage">85%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">ERPNext</p>
+              <p class="skill-percentage">80%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <p class="skill-name">IOT</p>
+              <p class="skill-percentage">90%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="prof-skills">
+          <h3 class="skills-title">Professional Skills</h3>
+          
+          <div class="prof-skills-grid">
+            <div class="prof-skill-item">
+              <div class="prof-skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h4 class="prof-skill-title">ERPNext Developer</h4>
+              <p class="prof-skill-description">Building responsive and interactive web applications with ERP solutions.</p>
+            </div>
+            
+            <div class="prof-skill-item">
+              <div class="prof-skill-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4 class="prof-skill-title">App Development</h4>
+              <p class="prof-skill-description">Creating cross-platform mobile applications with Flutter.</p>
+            </div>
+            
+            
+            
+            <div class="prof-skill-item">
+              <div class="prof-skill-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h4 class="prof-skill-title">Backend Development</h4>
+              <p class="prof-skill-description">Building secure and scalable server-side applications.</p>
+            </div>
+            
+            <div class="prof-skill-item">
+              <div class="prof-skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4 class="prof-skill-title">Database Design</h4>
+              <p class="prof-skill-description">Creating efficient database schemas and handling data operations with Mariadb and Mysql.</p>
+            </div>
+            
+            <div class="prof-skill-item">
+              <div class="prof-skill-icon">
+                <i class="fa fa-cloud"></i>
+              </div>
+              <h4 class="prof-skill-title">IOT</h4>
+              <p class="prof-skill-description">Solving real life problems through automation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">My Projects</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Here you will find some of the personal projects that I created with each project having its own case study</p>
+    </div>
+
+    <!-- Swiper Container -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        
+        <!-- Project 1 -->
+        <div class="swiper-slide project-card">
+          <div class="project-img-container">
+            <img src="finance1.jpg" alt="Finance Buddy" class="project-img">
+            <div class="project-img-overlay">
+              <h3 class="project-title">Finance Buddy</h3>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-description">The Finance Buddy project is a financial management tool that enhances security with Two-Factor Authentication (2FA), allowing users to securely access their accounts.</p>
+            <p class="project-description"> It enables users to generate detailed financial reports, track income and expenses, and receive notifications via email. This project aims to simplify personal finance management while ensuring data security and easy accessibility of financial information.</p>
+            <div class="project-tags">
+              <span class="project-tag">.NET</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="swiper-slide project-card">
+          <div class="project-img-container">
+            <img src="kismat_food.png" alt="Kismat Food" class="project-img">
+            <div class="project-img-overlay">
+              <h3 class="project-title">Kismat Food</h3>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-description">The Kismat Food project allows users to select a city, view top restaurants in that city, explore their featured dishes, and see the locations of these restaurants. It provides a seamless user experience for discovering dining options based on location.</p>
+            <p class="project-description"> The app may include additional features like ratings, reviews, and detailed restaurant information to enhance the food discovery journey..</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+
+         <!-- Project 2 -->
+         <div class="swiper-slide project-card">
+          <div class="project-img-container">
+            <img src="IOt.jpg" alt="Distance Alert" class="project-img">
+            <div class="project-img-overlay">
+              <h3 class="project-title">Distance Measure of objects</h3>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-description">The IoT project uses an Ultrasonic Sensor to measure the distance of an object and displays the value on an LED. Based on the distance, an LED lights up, and a Buzzer activates to signal the proximity of the object. Alerts are triggered when the object is too close, providing real-time feedback for safety or alert purposes.</p>
+            <div class="project-tags">
+              <span class="project-tag">LED</span>
+              <span class="project-tag">Arduino</span>
+              <span class="project-tag">Ultrasonic Sensor</span>
+                <span class="project-tag">Buzzer</span>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="swiper-slide project-card">
+          <div class="project-img-container">
+            <img src="hrms.jpg" alt="HRMS" class="project-img">
+            <div class="project-img-overlay">
+              <h3 class="project-title">Human Resource Management System</h3>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-description">The HRMS module in ERPNext streamlines human resource management by covering key functions such as recruitment, attendance tracking, payroll processing, and performance management.</p>
+            <p class="project-description"> It enables efficient employee data management, automates attendance and salary calculations, and provides tools for evaluating employee performance. The module offers a comprehensive solution to manage HR processes seamlessly and effectively..</p>
+            <div class="project-tags">
+              <span class="project-tag">ERPNext</span>
+              <span class="project-tag">Frappe</span>
+              <span class="project-tag">MariaDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="swiper-slide project-card">
+          <div class="project-img-container">
+            <img src="app.jpg" alt="Gaming App" class="project-img">
+            <div class="project-img-overlay">
+              <h3 class="project-title">Multiple Gaming App</h3>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-description">The app features multiple mini-games integrated into a single Flutter application, offering a variety of interactive and engaging experiences for users. Each game is designed with unique mechanics, such as a Dinosaur game, 2048, and others. Users can track high scores, and the app provides a cohesive and fun environment for gaming enthusiasts. Additionally, the app includes a user-friendly interface for easy navigation between games..</p>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Html</span>
+              <span class="project-tag">Css</span>
+              <span class="project-tag">Javascript</span>
+              <span class="project-tag">Flutter Web</span>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Swiper Pagination (optional) -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Swiper Navigation Buttons (optional) -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+  </div>
+</section>
+
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Feel free to contact I will get back to you as soon as possible</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3 class="contact-title">Let's Talk</h3>
+          
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="contact-item-title">Email</h4>
+                <a href="mailto:ratnanipooja000@gamil.com" class="contact-item-value">ratnanipooja000@gmail.com</a>
+              </div>
+
+             
+              <div class="contact-icon">
+                <i class="fas fa-location-dot"></i>
+              </div>
+              <div>
+                <h4 class="contact-item-title">Location</h4>
+                <p class="contact-item-value">Surat,India</p>
+              </div>
+
+            </div>
+            
+            
+          </div>
+          
+          <h4 class="contact-subtitle">Connect with me</h4>
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/pooja-ratnani-80959b246/" target="_blank" class="social-link">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://github.com/poojaratnani12345" target="_blank" class="social-link">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://instagram.com/pooja_5102_" target="_blank" class="social-link">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
+        </div>
+        
+       
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#" class="logo-link">Pooja<span> Ratnani</span></a>
+        
+        <div class="footer-text">
+          <p class="copyright">© <span id="current-year">2023</span> Pooja Ratnani. All rights reserved.</p>
+          <p>Made with <span class="heart">♥</span> by Pooja Ratnani</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scroll to Top Button -->
+  <button id="scroll-to-top" class="scroll-top-btn">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+
+
+<script>
+  
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: {
+      delay: 3000, // 3 seconds me automatic next slide
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+
+
+</script>
+
+</html>
